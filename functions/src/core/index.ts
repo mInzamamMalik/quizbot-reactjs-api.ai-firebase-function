@@ -1,4 +1,5 @@
+import { upcaseMessage } from './uppercase'
+export { upcaseMessage }
 
-export function upcaseMessage(msg: string): string {
-    return msg.toUpperCase()
-}
+import { apiai } from './apiai'
+export { apiai }
