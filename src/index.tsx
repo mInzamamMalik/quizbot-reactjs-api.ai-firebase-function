@@ -6,17 +6,9 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { store } from './store';
 
-
-// import injectTapEventPlugin from 'react-tap-event-plugin';
-// injectTapEventPlugin();
-
-import { MuiThemeProvider } from 'material-ui';
-
 ReactDOM.render(
-    <MuiThemeProvider>
-        <Provider store={store}>
-            <App></App>
-        </Provider>
-    </MuiThemeProvider>,
+    <Provider store={store}>
+        <App />
+    </Provider>,
     document.getElementById('root')
 );

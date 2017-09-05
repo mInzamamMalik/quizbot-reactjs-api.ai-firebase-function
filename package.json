@@ -13,12 +13,10 @@
   "authorGithub": "https://github.com/uqutub",
   "license": "ISC",
   "dependencies": {
-    "@types/react-tap-event-plugin": "0.0.30",
     "firebase": "^3.6.10",
     "react": "15.3.2",
     "react-dom": "15.3.2",
     "react-redux": "^4.4.5",
-    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-logger": "^2.10.2",
     "redux-observable": "^0.12.1",
